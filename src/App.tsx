@@ -28,7 +28,7 @@ function App() {
   return (
     <ConnectionProvider
       endpoint={
-        "https://devnet.helius-rpc.com/?api-key=f6d43195-7721-4765-9a1d-87fcdd0537b8"
+        "https://api.devnet.solana.com"
       }
     >
       <WalletProvider wallets={[]} autoConnect>
